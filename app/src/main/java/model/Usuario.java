@@ -12,7 +12,8 @@ public class Usuario {
 
     public Usuario(){}
 
-    public Usuario(String nome, String login, String senha) {
+    public Usuario(Integer _id, String nome, String login, String senha) {
+        this._id = _id;
         this.nome = nome;
         this.login = login;
         this.senha = senha;
