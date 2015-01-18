@@ -8,5 +8,6 @@
     <string name="txt_usuario">Usuário</string>
     <string name="txt_senha">Senha</string>
     <string name="btn_entrar">Entrar</string>
+    <string name="login_manterconectado">Manter conectado</string>
 
 </resources>

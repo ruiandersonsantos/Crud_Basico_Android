@@ -12,28 +12,44 @@
 
         <TextView
             android:text="@string/txt_usuario"
+            android:textStyle="bold"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"/>
 
         <EditText
             android:id="@+id/login_edtusuario"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"/>
 
         <TextView
             android:text="@string/txt_senha"
+            android:textStyle="bold"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"/>
 
         <EditText
             android:id="@+id/login_edtusenha"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:layout_marginBottom="10dp"/>
+
+        <CheckBox
+            android:id="@+id/login_check_manterConectado"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/login_manterconectado"
+            android:layout_marginBottom="10dp"/>
 
         <Button
+            android:id="@+id/login_btn_entar"
             android:text="@string/btn_entrar"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:background="#333"
+            android:textColor="#FFF"
+            android:textStyle="bold"/>
 
 
         </LinearLayout>
