@@ -49,7 +49,8 @@
             android:layout_height="wrap_content"
             android:background="#333"
             android:textColor="#FFF"
-            android:textStyle="bold"/>
+            android:textStyle="bold"
+            android:onClick="logar"/>
 
 
         </LinearLayout>

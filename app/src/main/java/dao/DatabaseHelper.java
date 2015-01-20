@@ -26,11 +26,11 @@ public class DatabaseHelper extends SQLiteOpenHelper {
 
         // Criando tabela de tarefas.
         String sqlTarefa = "create table tarefas(_id integer primary key autoincrement," +
-                "tarefa text not null, dt_criacao datetime default current_datetime, dt_completado)";
+                "tarefa text not null, dt_criacao datetime default current_timestamp, dt_completado datetime)";
         db.execSQL(sqlTarefa);
 
         // Cadastrando usuario
-        String sqlCadUser = "insert into usuario(nome, login, senha) values('Admin', 'admin', '123')";
+        String sqlCadUser = "insert into usuarios(nome, login, senha) values('Admin', 'admin', '123')";
         db.execSQL(sqlCadUser);
 
 
