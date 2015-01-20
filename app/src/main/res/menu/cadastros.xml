@@ -1,0 +1,22 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="crud.com.br.crud.CadUsuarioActivity">
+
+    <item android:id="@+id/menu_salvar"
+        android:title="@string/txt_menu_slavar"
+        android:orderInCategory="100"
+        android:icon="@android:drawable/ic_menu_save"
+        android:showAsAction="ifRoom|withText" />
+
+    <item android:id="@+id/menu_excluir"
+        android:title="@string/txt_menu_excluir"
+        android:visible="false"
+        android:orderInCategory="100"
+        android:icon="@android:drawable/ic_menu_delete"
+        android:showAsAction="ifRoom|withText" />
+
+    <item android:id="@+id/menu_sair"
+        android:title="@string/txt_menu_sair"
+        android:orderInCategory="100"
+        android:showAsAction="never" />
+</menu>

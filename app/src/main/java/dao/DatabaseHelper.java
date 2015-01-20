@@ -29,7 +29,7 @@ public class DatabaseHelper extends SQLiteOpenHelper {
                 "tarefa text not null, dt_criacao datetime default current_timestamp, dt_completado datetime)";
         db.execSQL(sqlTarefa);
 
-        // Cadastrando usuario
+        // Cadastrando usuarios
         String sqlCadUser = "insert into usuarios(nome, login, senha) values('Admin', 'admin', '123')";
         db.execSQL(sqlCadUser);
 

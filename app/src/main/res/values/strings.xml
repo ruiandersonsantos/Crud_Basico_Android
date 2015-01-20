@@ -16,5 +16,14 @@
     <string name="cadUsuario_txtNome">Nome:</string>
     <string name="cadUsuario_txtLogin">Login:</string>
     <string name="cadUsuario_txtSenha">Senha:</string>
+    <string name="txt_campo_obrigatorio">Campo obrigatorio.</string>
+    <string name="mensagem_atualizar">Registro Atualizado com Sucesso!</string>
+    <string name="mensagem_cadastrar">Registro Cadastrado com sucesso!</string>
+    <string name="mensagem_error">Error ao salvar!</string>
+    <string name="txt_menu_slavar">Salvar</string>
+    <string name="txt_menu_excluir">Excluir</string>
+    <string name="txt_menu_sair">Sair</string>
+    <string name="title_activity_list_usuario">Lista de Usuarios</string>
+    <string name="txt_listar_usuarios">Listar Usuários</string>
 
 </resources>
